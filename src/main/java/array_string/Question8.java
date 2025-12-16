@@ -12,4 +12,21 @@ package array_string;
  * @Date: 2025/12/16
  */
 public class Question8 {
+    public static void main(String[] args) {
+        int[] prices = {7,1,5,3,6,4,3,2,5,7,9};
+        System.out.println(maxProfit(prices));
+    }
+
+    public static int maxProfit(int[] prices) {
+        int index = prices[0];
+        for (int i = 1; i < prices.length; i++) {
+            if(prices[i] > index){
+                System.out.print(prices[i-1]+" ");
+            }else {
+                index = prices[i];
+                System.out.println();
+            }
+        }
+        return index;
+    }
 }
