@@ -18,15 +18,10 @@ public class Question8 {
     }
 
     public static int maxProfit(int[] prices) {
-        int index = prices[0];
+        int profit = 0;
         for (int i = 1; i < prices.length; i++) {
-            if(prices[i] > index){
-                System.out.print(prices[i-1]+" ");
-            }else {
-                index = prices[i];
-                System.out.println();
-            }
+            profit += Math.max(prices[i] - prices[i - 1], 0);
         }
-        return index;
+        return profit;
     }
 }
