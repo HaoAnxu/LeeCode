@@ -2,7 +2,7 @@ package array_string;
 
 import java.util.Arrays;
 /**
- * 【轮转数组】
+ * 【189.轮转数组】
  * 给定一个整数数组 nums，将数组中的元素向右轮转 k 个位置，其中 k 是非负数。
  *
  * @Author: haoanxu

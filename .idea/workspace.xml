@@ -4,9 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab2fe8e-b644-4405-a6b3-b3e16bb08819" name="更改" comment="">
+    <list default="true" id="eab2fe8e-b644-4405-a6b3-b3e16bb08819" name="更改" comment="yes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_string/Question24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_string/Question9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_string/Question9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,36 +66,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/LeeCode/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Question7.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Question8.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/LeeCode/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Question11.executor": "Run",
+    "应用程序.Question7.executor": "Run",
+    "应用程序.Question8.executor": "Run",
+    "应用程序.Question9.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\LeeCode\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Question8">
-    <configuration name="Question7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_string.Question7" />
+  <component name="RunManager" selected="应用程序.Question11">
+    <configuration name="Question11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_string.Question11" />
       <module name="LeeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="array_string.Question7" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array_string.*" />
@@ -96,8 +137,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_string.Question9" />
+      <module name="LeeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Question11" />
+        <item itemvalue="应用程序.Question9" />
         <item itemvalue="应用程序.Question8" />
         <item itemvalue="应用程序.Question7" />
       </list>
@@ -118,11 +174,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765868977905</updated>
-      <workItem from="1765868979258" duration="7725000" />
+      <workItem from="1765868979258" duration="7786000" />
+      <workItem from="1765932220007" duration="205000" />
+      <workItem from="1765932467465" duration="12294000" />
     </task>
+    <task id="LOCAL-00001" summary="yes">
+      <option name="closed" value="true" />
+      <created>1765879987647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765879987647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="yes" />
   </component>
 </project>
