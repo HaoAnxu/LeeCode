@@ -1,5 +1,7 @@
 package array_string;
 
+import java.lang.reflect.Array;
+
 /**
  * 【134.加油站】
  *
@@ -13,4 +15,36 @@ package array_string;
  * @Date: 2025/12/17
  */
 public class Question14 {
+
+    public static void main(String[] args) {
+        int[] gas = {1,2,3,4,5};
+        int[] cost = {3,4,5,1,2};
+        System.out.println(canCompleteCircuit(gas,cost));
+    }
+    public static int canCompleteCircuit(int[] gas, int[] cost) {
+        int start = 0;
+        int oil = 0;
+        int total = 0;
+        for (int i = 0; i < gas.length; i++) {
+            oil += gas[i]-cost[i];
+            total += gas[i]-cost[i];
+            if(oil < 0){
+                //从start到i之间的所有加油站，都不可能是有效起点
+                start = i+1;
+                oil = 0;
+            }
+        }
+        if(total<0){
+            return -1;
+        }else {
+            return start;
+        }
+    }
+    private static int sum(int[] arr){
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum+=arr[i];
+        }
+        return sum;
+    }
 }

@@ -1,5 +1,7 @@
 package array_string;
 
+import java.util.*;
+
 /**
  * 【380.O(1)时间插入，删除和获取随机元素】
  *
@@ -14,4 +16,44 @@ package array_string;
  * @Date: 2025/12/17
  */
 public class Question12 {
+
+    private ArrayList<Integer> list;
+    private Map<Integer,Integer> map;
+    private Random random;
+
+    public Question12() {
+        list = new ArrayList<>();
+        map = new HashMap<>();
+        random = new Random();
+    }
+
+    public boolean insert(int val) {
+        if(map.containsKey(val)){
+            return false;
+        }else {
+            list.add(val);
+            map.put(val,list.size()-1);
+            return true;
+        }
+    }
+
+    public boolean remove(int val) {
+        if(!map.containsKey(val)){
+            return false;
+        }else {
+            int deleteIndex = map.get(val);
+            int lastVal = list.get(list.size()-1);
+            //覆盖(删除)要删除的值
+            list.set(deleteIndex,lastVal);
+            map.put(lastVal,deleteIndex);
+            //删除List最后一个元素就行了
+            list.remove(list.size()-1);
+            map.remove(val);
+            return true;
+        }
+    }
+
+    public int getRandom() {
+        return list.get(random.nextInt(list.size()));
+    }
 }
